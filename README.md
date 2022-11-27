@@ -22,6 +22,8 @@ Alice:    x =(9^4 mod 23) = (6561 mod 23) = 6
 
 > Step 7: 9 is the shared secret.
 
+[diffie helman wikipedia](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
+
 ``` typescript
 
 type User = {
