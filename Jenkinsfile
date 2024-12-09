@@ -4,7 +4,7 @@ pipeline {
     stage('clone repo') {
       steps {
         echo 'cloning repository'
-        git(url: 'https://github.com/Haroub-SA/AquaFish.git', branch: 'dev')
+        sh 'ls -la'
       }
     }
 
